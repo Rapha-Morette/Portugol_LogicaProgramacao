@@ -14,11 +14,11 @@ programa
 
 		se (sexo == "m")
 		{
-			pesoIdeal = 62.1 * altura 
+			pesoIdeal = (62.1 * altura) - 44.7 
 			escreva ("Seu peso ideal é: " + pesoIdeal)
 		}
 		senao {
-			pesoIdeal =  72.1 * altura
+			pesoIdeal =  (72.1 * altura) - 58
 			escreva ("Seu peso ideal é: " + pesoIdeal)
 		}
 		
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 341; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
